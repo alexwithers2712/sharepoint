@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "=if([$AnnouncementType] == 'Notice', 'sp-row-card sp-CSS-backgroundColor-BgCornflowerBlue', if([$AnnouncementType] == 'Warning', 'sp-row-card sp-field-severity--warning', if([$AnnouncementType] == 'Alert', 'sp-row-card sp-field-severity--severeWarning', '')))"
+    },
+    "children": [
+      {
+        "elmType": "a",
+        "attributes": {
+          "target": "=if([$AnnouncementLink]!='#','_blank','_self')",
+          "href": "[$AnnouncementLink]"
+        },
+        "style": {
+          "text-align": "left",
+          "font-size": "1.3em",
+          "text-decoration": "none",
+          "color": "#FFFFFF",
+          "display": "block"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "attributes": {
+              "iconName": "=if([$AnnouncementType] == 'Notice', 'QuickNote', if([$AnnouncementType] == 'Warning', 'Warning', if([$AnnouncementType] == 'Alert', 'ShieldAlert', '')))"
+            },
+            "style": {
+              "padding-right": "12px",
+              "display": "inline-block",
+              "font-size": "1.5em"
+            }
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "display": "inline-block",
+              "vertical-align": "top"
+            },
+            "txtContent": "[$Title]"
+          }
+        ]
+      }
+    ]
+  }
+}

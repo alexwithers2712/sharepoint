@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "button",
+  "txtContent": "Publish to Customer Hub",
+  "customRowAction": {
+    "action": "executeFlow",
+    "actionParams": "{\"id\": \"a85d097e-2842-409b-b023-b79d9edc6d14\",\"headerText\":\"Publish to Customer Hub\",\"runFlowButtonText\":\"Publish Now\"}"
+  },
+  "style": {
+    "background-color": "#0088CE",
+    "color": "white",
+    "border-radius": "0 15px",
+    "visibility": "=if(([$PublishedToCustomerHub] == 'Yes'),'hidden','visible')"
+  }
+}

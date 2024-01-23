@@ -1,0 +1,37 @@
+{
+    "sections": [
+        {
+            "displayname": "General Applicant Details",
+            "fields": [
+                "First name",
+                "Surname",
+                "Role applied for",
+                "Skillset and passions", 
+                "Years Experience",       
+                "Driving"
+            ]
+        },
+        {
+            "displayname": "1st Interview",
+            "fields": [
+                "1st Interview Date",
+                "1st Interview Interviewer",
+                "1st Interview Successful"  
+            ]
+        },
+        {
+            "displayname": "Assessment",
+            "fields": [
+                "Assessment Date",
+                "Assessment Assessor",
+                "Assessment Successful" 
+            ]
+        },
+        {
+            "displayname": "Notes",
+            "fields": [
+                "Notes"
+            ]
+        }
+    ]
+}
