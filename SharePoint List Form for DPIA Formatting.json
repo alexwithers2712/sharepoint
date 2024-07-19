@@ -1,0 +1,64 @@
+{
+    "sections": [
+        {
+            "displayname": "Submitting Controller Details",
+            "fields": [
+                "Name of controller",
+                "Reason for DPIA",
+                "Name of DPO"
+            ]
+        },
+        {
+            "displayname": "Project Description",
+            "fields": [
+                "Explain broadly what project aims to achieve and what type of processing it involves"
+            ]
+        },
+        {
+            "displayname": "Processing",
+            "fields": [
+                "About the handling of the data – How will you collect, use, share, store and delete data? ",
+                "About the data – Quantity of data, timeframe, and type. reference special category data.",
+                "About the data subjects – Expectations and control? Reference vulnerable groups and existing concerns over current processing",
+                "Identify benefits of the processing"
+            ]
+        },
+        {
+            "displayname": "Consultation",
+            "fields": [
+                "How will you consult with relevant stakeholders, or why not appropriate?"
+            ]
+        },
+        {
+            "displayname": "Compliance Consideration",
+            "fields": [
+                "Describe compliance and proportionality measures."
+            ]
+        },
+        {
+            "displayname": "Identify and Assess Risks",
+            "fields": [
+                "Risk Assessment"
+            ]
+        },
+        {
+            "displayname": "Sign Off and Record Outcomes",
+            "fields": [
+                "Measures approved by",
+                "Notes by Measures approver",
+                "Date of Approval by Measures approver",
+                "Residual risks approved by",
+                "Notes by Residual risks approver",
+                "Date of Approval by Residual risks approver",
+                "Date of DPO Advice",
+                "DPO Advice",
+                "DPO advice accepted or overruled",
+                "If overruled, give reasons",
+                "Consultation responses reviewed by",
+                "If decision making is not in line with consultation, give reasons",
+                "DPIA Reviewer / Owner",
+                "DPIA Review Date",
+            ]
+        }
+    ]
+}

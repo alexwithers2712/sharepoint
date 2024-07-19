@@ -1,0 +1,34 @@
+{
+    "sections": [
+        {
+            "displayname": "Purpose Test",
+            "fields": [
+                "Purpose Test"
+            ]
+        },
+        {
+            "displayname": "Necessity Test",
+            "fields": [
+                "Necessity Test"
+            ]
+        },
+        {
+            "displayname": "Balancing Test",
+            "fields": [
+                "Nature of the personal data",
+                "Reasonable expectations",
+                "Likely impact",
+                "Can you offer individuals an opt-out?"
+            ]
+        },
+        {
+            "displayname": "Making the decision",
+            "fields": [
+                "Can you rely on legitimate interests for this processing?",
+                "Do you have any comments to justify your answer?",
+                "LIA completed by",
+                "Date completed"
+            ]
+        }
+    ]
+}
