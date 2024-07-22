@@ -1,37 +1,59 @@
 {
-    "sections": [
+    "commandBarProps": {
+      "commands": [
         {
-            "displayname": "General Applicant Details",
-            "fields": [
-                "First name",
-                "Surname",
-                "Role applied for",
-                "Skillset and passions", 
-                "Years Experience",       
-                "Driving"
-            ]
+          "key": "new",
+          "hide": true
         },
         {
-            "displayname": "1st Interview",
-            "fields": [
-                "1st Interview Date",
-                "1st Interview Interviewer",
-                "1st Interview Successful"  
-            ]
+          "key": "upload",
+          "hide": true
         },
         {
-            "displayname": "Assessment",
-            "fields": [
-                "Assessment Date",
-                "Assessment Assessor",
-                "Assessment Successful" 
-            ]
+          "key": "sync",
+          "hide": true
         },
         {
-            "displayname": "Notes",
-            "fields": [
-                "Notes"
-            ]
+          "key": "addShortcut",
+          "hide": true
+        },
+        {
+          "key": "pinToQuickAccess",
+          "hide": true
+        },
+        {
+          "key": "addShortcut",
+          "hide": true
+        },
+        {
+          "key": "moveTo",
+          "hide": true
+        },
+        {
+          "key": "checkOut",
+          "hide": true
+        },
+        {
+          "key": "checkIn",
+          "hide": true
+        },
+        {
+          "key": "alertMe",
+          "hide": true
+        },
+        {
+          "key": "manageAlert",
+          "hide": true
+        },
+        {
+          "key": "download",
+          "hide": true
+        },
+        {
+          "key": "pinItem",
+          "hide": true
         }
-    ]
-}
+      ]
+    }
+  }
+  
